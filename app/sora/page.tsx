@@ -5,8 +5,8 @@ const page = () => {
   return (
     <Box>
       <Typography
-        fontSize={"100px"}
-        color="red"
+        fontSize={{ sm: "10", md: "100" }}
+        color={{ sm: "red", md: "blue" }}
         bgcolor={"green"}
         display={"flex"}
         alignItems={"center"}
@@ -15,6 +15,7 @@ const page = () => {
         mt={"100px"}
         p={3}
         // ↑数字だけで書くと、これ×８が""で書いたのになる（padding）
+        // 水色のがprops ライトグリーンのはcomponentsかタグって呼ばれてる
       >
         Hello World!
       </Typography>
