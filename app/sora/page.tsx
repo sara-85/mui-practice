@@ -1,7 +1,12 @@
+import { Box, Typography } from "@mui/material";
 import React from "react";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <Box>
+      <Typography>Hello World!</Typography>
+    </Box>
+  );
 };
 
 export default page;
