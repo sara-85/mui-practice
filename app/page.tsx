@@ -1,12 +1,12 @@
-import { Box, Button, Typography } from "@mui/material";
+import React from "react";
+import Login from "./components/login";
 
-export default function Home() {
+const page = () => {
   return (
-    <Box>
-      <Button variant="contained" color="inherit" href="/sora">
-        Contained
-      </Button>
-      <Typography>muiの勉強会</Typography>
-    </Box>
+    <>
+      <Login />
+    </>
   );
-}
+};
+
+export default page;
